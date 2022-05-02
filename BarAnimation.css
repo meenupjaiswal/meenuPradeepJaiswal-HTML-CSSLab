@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    margin-top: 10%;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+article {
+    height: 300px;
+    width: 40px;
+    background-color: grey;
+}
+
+.section1 div {
+    height: 70%;
+    background-color: white;
+    animation-name: bar1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes bar1 {
+    0% {
+        height: 100%;
+    }
+    100% {
+        height: 70%;
+    }
+}
+
+.section2 div {
+    height: 60%;
+    background-color: white;
+    animation-name: bar2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes bar2 {
+    0% {
+        height: 100%;
+    }
+    100% {
+        height: 60%;
+    }
+}
+
+.section3 div {
+    height: 20%;
+    background-color: white;
+    animation-name: bar3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes bar3 {
+    0% {
+        height: 100%;
+    }
+    100% {
+        height: 20%;
+    }
+}
